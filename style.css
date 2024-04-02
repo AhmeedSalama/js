@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../pexels-pixabay-534216.jpg);
+  background-size: cover;
+}
+
+.container{
+  
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+ 
+}
+
+input{
+  max-width: 200px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.result{
+  font-size: 20px;
+  color: white;
+}
